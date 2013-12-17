@@ -14,7 +14,7 @@
 		<string>svn://192.168.1.113/code</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>libZH/libZH.xcodeproj/project.xcworkspace</string>
+	<string>code/libZH/libZH.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FBE81D64-F424-44BA-AF63-42A2137CC330</key>

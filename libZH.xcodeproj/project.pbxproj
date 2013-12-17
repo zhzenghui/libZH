@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C081608418600C0300158EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C081608318600C0300158EFB /* Foundation.framework */; };
-		C081608918600C0400158EFB /* libZH.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C081608818600C0400158EFB /* libZH.h */; };
-		C081608B18600C0400158EFB /* libZH.m in Sources */ = {isa = PBXBuildFile; fileRef = C081608A18600C0400158EFB /* libZH.m */; };
 		C081609218600C0400158EFB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C081609118600C0400158EFB /* XCTest.framework */; };
 		C081609318600C0400158EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C081608318600C0300158EFB /* Foundation.framework */; };
 		C081609818600C0400158EFB /* liblibZH.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C081608018600C0300158EFB /* liblibZH.a */; };
@@ -130,7 +128,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C081608918600C0400158EFB /* libZH.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +137,6 @@
 		C081608018600C0300158EFB /* liblibZH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibZH.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C081608318600C0300158EFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C081608718600C0300158EFB /* libZH-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libZH-Prefix.pch"; sourceTree = "<group>"; };
-		C081608818600C0400158EFB /* libZH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libZH.h; sourceTree = "<group>"; };
-		C081608A18600C0400158EFB /* libZH.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libZH.m; sourceTree = "<group>"; };
 		C081609018600C0400158EFB /* libZHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libZHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C081609118600C0400158EFB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C081609B18600C0400158EFB /* libZHTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libZHTests-Info.plist"; sourceTree = "<group>"; };
@@ -303,6 +298,7 @@
 		C081608218600C0300158EFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C08162461860462E00158EFB /* FMDB */,
 				C081616B1860381A00158EFB /* SystemConfiguration.framework */,
 				C08161691860381400158EFB /* libz.1.2.5.dylib */,
 				C08161671860380E00158EFB /* libsqlite3.0.dylib */,
@@ -317,8 +313,6 @@
 			isa = PBXGroup;
 			children = (
 				C08162451860462E00158EFB /* Classes */,
-				C081608818600C0400158EFB /* libZH.h */,
-				C081608A18600C0400158EFB /* libZH.m */,
 				C081608618600C0300158EFB /* Supporting Files */,
 			);
 			path = libZH;
@@ -353,7 +347,6 @@
 		C08162451860462E00158EFB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C08162461860462E00158EFB /* FMDB */,
 				C08162511860462E00158EFB /* libWeiboSDK */,
 				C08162551860462E00158EFB /* SDKExport */,
 				C08162591860462E00158EFB /* Unit */,
@@ -378,7 +371,8 @@
 				C081624F1860462E00158EFB /* FMResultSet.h */,
 				C08162501860462E00158EFB /* FMResultSet.m */,
 			);
-			path = FMDB;
+			name = FMDB;
+			path = Classes/FMDB;
 			sourceTree = "<group>";
 		};
 		C08162511860462E00158EFB /* libWeiboSDK */ = {
@@ -597,7 +591,6 @@
 				C08162C51860462E00158EFB /* NSDate+Helper.m in Sources */,
 				C08162C11860462E00158EFB /* ImageDownloader.m in Sources */,
 				C08163071860462E00158EFB /* ZHManageCell.m in Sources */,
-				C081608B18600C0400158EFB /* libZH.m in Sources */,
 				C08162E41860462E00158EFB /* Button.m in Sources */,
 				C08162FB1860462E00158EFB /* TableView.m in Sources */,
 				C08162F31860462E00158EFB /* Message.m in Sources */,
