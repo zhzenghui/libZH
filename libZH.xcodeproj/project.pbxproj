@@ -110,6 +110,7 @@
 		C08163081860462E00158EFB /* ZHManageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C08162AB1860462E00158EFB /* ZHManageCell.m */; };
 		C08163091860462E00158EFB /* ZHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C08162AD1860462E00158EFB /* ZHNavigationViewController.m */; };
 		C081630A1860462E00158EFB /* ZHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C08162AD1860462E00158EFB /* ZHNavigationViewController.m */; };
+		C081630C1860472F00158EFB /* libZH.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C081630B1860472F00158EFB /* libZH.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +247,7 @@
 		C08162AB1860462E00158EFB /* ZHManageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHManageCell.m; sourceTree = "<group>"; };
 		C08162AC1860462E00158EFB /* ZHNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNavigationViewController.h; sourceTree = "<group>"; };
 		C08162AD1860462E00158EFB /* ZHNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNavigationViewController.m; sourceTree = "<group>"; };
+		C081630B1860472F00158EFB /* libZH.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libZH.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				C081608518600C0300158EFB /* libZH */,
+				C081630B1860472F00158EFB /* libZH.podspec */,
 				C081609918600C0400158EFB /* libZHTests */,
 				C081608218600C0300158EFB /* Frameworks */,
 				C081608118600C0300158EFB /* Products */,
@@ -571,6 +574,7 @@
 				C081609E18600C0400158EFB /* InfoPlist.strings in Resources */,
 				C08162EE1860462E00158EFB /* DesginerCellV.xib in Resources */,
 				C08162E81860462E00158EFB /* CaseCell.xib in Resources */,
+				C081630C1860472F00158EFB /* libZH.podspec in Resources */,
 				C08162DD1860462E00158EFB /* AccessCell.xib in Resources */,
 				C08162EB1860462E00158EFB /* DesginerCell.xib in Resources */,
 				C08162BA1860462E00158EFB /* WeiboSDK.bundle in Resources */,
